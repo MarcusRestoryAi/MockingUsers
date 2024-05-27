@@ -13,7 +13,7 @@ namespace MockingUsers
             string result = "";
 
             if (number % 3 == 0) result += "Fizz";
-            if (number % 5 == 0) result += "Buzz";
+            if (number % 6 == 0) result += "Buzz";
             if (result.Length == 0) return number.ToString();
             return result;
         }
